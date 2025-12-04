@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>5ee045b0-aea3-4f08-8d31-32d1a6f8fed0</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="A2A" Version="0.3.3-preview" />
+    <PackageReference Include="A2A.AspNetCore" Version="0.3.3-preview" />
+    <PackageReference Include="Azure.AI.Agents.Persistent" Version="1.2.0-beta.7" />
+    <PackageReference Include="Azure.Identity" Version="1.14.2" />
+    <PackageReference Include="Microsoft.Agents.AI" Version="1.0.0-preview.251125.1" />
+    <PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.0.0-preview.251125.1" />
+    <PackageReference Include="Microsoft.Agents.AI.Hosting.A2A.AspNetCore" Version="1.0.0-preview.251125.1" />
+    <PackageReference Include="Microsoft.Agents.AI.AzureAI.Persistent" Version="1.0.0-preview.251125.1" />
+    <PackageReference Include="Microsoft.Extensions.AI" Version="10.0.1" />
+    <PackageReference Include="OpenAI" Version="2.7.0" />
+  </ItemGroup>
+
+</Project>

@@ -24,8 +24,8 @@ AIAgent agent = await persistentAgentsClient.GetAIAgentAsync(persistentAgent.Id)
 // Define the agent card for A2A discovery
 var agentCard = new AgentCard
 {
-    Name = persistentAgent.Name ?? "FoundryAgent",
-    Description = persistentAgent.Description ?? "An Azure AI Foundry hosted agent",
+    Name = persistentAgent.Name ?? "Foundry-MCP-Microsoft-Learn",
+    Description = persistentAgent.Description ?? "Microsoft Learn Agent with A2A",
     Version = "1.0.0",
     Capabilities = new AgentCapabilities
     {
